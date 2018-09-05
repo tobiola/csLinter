@@ -8,20 +8,36 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/shards.min.css">
 
-    <title>Code Standard Checker</title>
+    <title> Code Standard Linter </title>
 
     <script src="js/"></script>
   </head>
   <body>
-    <h3> input file <h3>
-    <input type="file" id="myFile">
-    <button onclick="myFunction()">Submit</button>
-    <a class="button" href="mailto:olao@purdue.edu">Submit</a>  </br>
-    <a class="button" href="https://moldingtofu.github.io/">Check out my cool webpage!</a>
+    <header class="site-header">
+      <div class="container">
+        <nav class="navbar">
+          <h1 class="pull-left">Code Standard Linter</h1>
+        </nav>
+      </div>
+    </header>
 
-    
-    
-    
+    <div class="container-fluid text-center">
+      <h3> input file <h3>
+      <div class="custom-file">
+        <input type="file" class="custom-file-input" id="customFile">
+        <label class="custom-file-label" for="customFile">Input your code file</label>
+      </div>
+      <fieldset>
+        <div class="custom-file">
+          <input type="file" class="custom-file-input" id="customFile">
+        </div>
+      </fieldset>
+      <button class="btn btn-info" onclick="myFunction()">Submit</button>
+      <a class="btn btn-primary" href="mailto:olao@purdue.edu">Submit</a>
+      <br />
+      <a class="btn btn-danger" href="https://moldingtofu.github.io/">Check out my cool webpage!</a>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- JavaScript Dependencies: jQuery, Popper.js, Bootstrap JS, Shards JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
